@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="Parrafo"></p>
+    <p id="P2">Cambiar</p>
+
+    <script>
+        const Parrafo = document.getElementById('Parrafo')
+        const P2 = document.getElementById('P2')
+
+        
+    const cambiar = function (){
+        Parrafo.textContent = majo.name
+    }
+
+        P2.addEventListener('click', cambiar)
+        let name = 'majo'
+
+        Parrafo.textContent = name
+
+
+    </script>
+    <script>
+        const majo = {
+            name: 'María',
+            age: 18,
+            genere: 'femenino',
+            saludar () {
+                console.log('hola')
+            }
+        }
+        console.log (majo)
+        majo.saludar()
+
+
+
+    </script>
+</body>
+
+</html>
